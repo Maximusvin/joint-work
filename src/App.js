@@ -1,12 +1,14 @@
 import Layout from './components/Layout/Layout';
+import Todo from './components/Todo';
+
+import todos from './DATA/todos.json';
 
 import './App.css';
 
 function App() {
   return (
     <Layout>
-      <h1>Home Work #2.2</h1>
-      <div>Hello</div>
+      <Todo />
     </Layout>
   );
 }
